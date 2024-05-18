@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:iot_project/pages/Gas_values.dart';
 import 'package:iot_project/pages/Heating.dart';
 import 'package:iot_project/pages/firebaseTest.dart';
-import 'package:iot_project/pages/last_values.dart';
 import 'package:iot_project/pages/subscriber.dart';
 import 'package:iot_project/util/app_colors.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
@@ -149,9 +148,6 @@ class _GasState extends State<Gas> {
        if(title=="General"){
          Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FetchData()));
 
-       }
-       else {
-         Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FetchLastValue()));
        }
       },
       child: Container(

@@ -33,7 +33,7 @@ class light extends StatelessWidget {
                 children: [
                   // icon
                   Image.asset(
-              "assets/icons/light-bulb.png",
+              "assets/icons/img.png",
 
                     height: 65,
                     color: powerOn ? Colors.white : Colors.grey.shade700,
@@ -46,7 +46,7 @@ class light extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.only(left: 22.0),
                           child: Text(
-                            "Light",
+                            "Lock",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 18,

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iot_project/pages/Bazzar.dart';
-import 'package:iot_project/pages/Heating.dart';
 import 'package:iot_project/pages/fire_values.dart';
 import 'package:iot_project/pages/subscriber.dart';
 import 'package:iot_project/util/app_colors.dart';
@@ -81,7 +79,7 @@ class _FireState extends State<Fire> {
                               backgroundColor: Color(0xFFEAE4FF),
                               progressColor: textColor,
                               center: Text(
-                                FireVal,
+                                FireVal=="1" ? "Normal" : "Fire",
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: textColor,
@@ -145,13 +143,6 @@ class _FireState extends State<Fire> {
     bool isActive = false,
   }) {
     return GestureDetector(
-      onTap: (){
-        if (title == "General"){
-        }
-        else
-        Navigator.push(context, MaterialPageRoute(builder: (context)=>Bazzar()));
-        },
-
 
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 12, horizontal: 32),

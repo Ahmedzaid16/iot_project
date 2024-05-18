@@ -128,7 +128,7 @@ class _TemperatureState extends State<Temperature> {
                   const SizedBox(
                     height: 40,
                   ),
-                  FanSpeed()
+                  // FanSpeed()
 
                 ],
               ))

@@ -59,9 +59,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:iot_project/firebase_options.dart';
-import 'package:iot_project/pages/firebaseTest.dart';
-import 'package:iot_project/pages/last_values.dart';
-import 'package:iot_project/pages/mqtt2.dart';
 import 'package:iot_project/pages/splash.dart';
 
 import 'package:iot_project/pages/temp.dart';

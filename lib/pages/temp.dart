@@ -19,25 +19,25 @@ class _tempState extends State<temp> {
           margin: const EdgeInsets.only(top: 5,left: 25,right: 25),
             child: Column(
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Hi",
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: textColor
-                      ),
-                    ),
-                    Image.asset(
-                      "assets/images/menu.png",
-                      height: 22,
-
-                    ),
-
-                  ],
-                ),
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //   children: [
+                //     Text(
+                //       "Hi",
+                //       style: TextStyle(
+                //         fontSize: 18,
+                //         fontWeight: FontWeight.bold,
+                //         color: textColor
+                //       ),
+                //     ),
+                //     Image.asset(
+                //       "assets/images/menu.png",
+                //       height: 22,
+                //
+                //     ),
+                //
+                //   ],
+                // ),
                 Expanded(
                     child:ListView(
                       physics: const BouncingScrollPhysics(),
